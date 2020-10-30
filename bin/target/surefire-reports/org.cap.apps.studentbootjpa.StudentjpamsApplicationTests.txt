@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: org.cap.apps.studentbootjpa.StudentjpamsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.455 s <<< FAILURE! - in org.cap.apps.studentbootjpa.StudentjpamsApplicationTests
+org.cap.apps.studentbootjpa.StudentjpamsApplicationTests  Time elapsed: 1.453 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+
