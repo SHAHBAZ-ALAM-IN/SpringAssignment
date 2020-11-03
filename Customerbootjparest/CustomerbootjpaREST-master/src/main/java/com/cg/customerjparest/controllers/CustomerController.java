@@ -47,6 +47,7 @@ public class CustomerController {
 	    
 		public CustomerDetails toDetails(Customer customer) {
 			CustomerDetails details=new CustomerDetails(customer.getId(),customer.getName());
+			
 			return details;
 		}
 }
