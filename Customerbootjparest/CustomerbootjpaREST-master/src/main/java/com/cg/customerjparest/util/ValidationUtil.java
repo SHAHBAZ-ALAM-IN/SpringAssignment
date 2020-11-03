@@ -6,7 +6,7 @@ public class ValidationUtil {
 
 	public static void checkArgumentNotNull(Object arg) {
 		if (arg == null) {
-			throw new InvalidArgumentException("arg can't be null");
+			throw new InvalidArgumentException("argument can't be null");
 		}
 	}
 
